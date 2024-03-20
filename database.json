@@ -1,0 +1,65 @@
+[
+    {
+      "id": "SE0",
+      "name": "Naz",
+      "dp_link":
+        "https://scontent.xx.fbcdn.net/v/t39.30808-1/422709169_367017162797243_1403417721805559056_n.jpg?stp=cp6_dst-jpg&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=EXjc9TRcR9gAX-7aeV9&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=00_AfC0q96ebmj-q9Y9zwp_WywNGgqmiWJ-rlLc9KVDxIZQIA&oe=6600ECB6",
+      "score": 50
+    },
+    {
+      "id": "SE1",
+      "name": "Shabdik",
+      "dp_link":
+        "https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-1/387839675_307145302062813_2795109392412897346_n.jpg?stp=dst-jpg_p100x100&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=_6ZEvs4QH4gAX8NJ-BS&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fdac14-1.fna&oh=00_AfAybTdv2NnKTe8BAqg7ohNqMJedZQR-3QiRVWe8C-oHkQ&oe=65FF9553",
+      "score": 0
+    },
+    {
+      "id": "SE2",
+      "name": "Pial",
+      "dp_link":
+        "https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-1/344375271_649972446956160_8069502301203195505_n.jpg?stp=dst-jpg_p100x100&_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=zZuQrsQH4ZMAX_c1nvE&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fdac14-1.fna&oh=00_AfAlj_NEw0po7ubqHe_UHrmccuh2Fyfa0pNfH-sxoTdNrg&oe=65FF56D5",
+      "score": 0
+    },
+    {
+      "id": "SE3",
+      "name": "Ayaan",
+      "dp_link":
+        "https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-1/432447904_1615613825941237_8104803160405142883_n.jpg?stp=dst-jpg_p100x100&_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=FUsbiWxz9q8AX_mtOwb&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fdac14-1.fna&oh=00_AfDmw-F9-rCf9y8-cHy9NhEVPEBCU0BKZo-t-9wil9qNAg&oe=65FF4BB3",
+      "score": 0
+    },
+    {
+      "id": "SE4",
+      "name": "Saad",
+      "dp_link":
+        "https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-1/365202855_2002240260110162_2079037988649005407_n.jpg?stp=dst-jpg_p100x100&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=LmbQKm47rNoAX_xp-at&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fdac14-1.fna&oh=00_AfDdn_MrW0HA4y9wGLoS6wsCbQZpexWjUens6XRF6SIDAQ&oe=65FF9F01",
+      "score": 0
+    },
+    {
+      "id": "SE5",
+      "name": "Nafiz",
+      "dp_link":
+        "https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-1/376048491_1427200428125026_6502763150671349819_n.jpg?stp=cp6_dst-jpg_p100x100&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=a6H9CJT4a1IAX_WoDKx&_nc_oc=AdidVervHBKbQ7V_xSuMRcB_Hnz6tHTQpkLos7HfPiCslVYmbvdXVYdQKM2rxLCMzKg&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fdac14-1.fna&oh=00_AfAD0lVRSTtOv42ixGQlxW_ibVHq0w5vvS7VExmonYu92A&oe=65FF1A0D",
+      "score": 0
+    },
+    {
+      "id": "SE6",
+      "name": "Dihan",
+      "dp_link":
+        "https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-1/415605581_696321679274979_4232805046593730468_n.jpg?stp=dst-jpg_p100x100&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=6rVcX6n4B_MAX9P4EuN&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fdac14-1.fna&oh=00_AfCEzdUlrxUEecik4LTywgHU8hP0RBAPH2dqdt4oGFxFHw&oe=6600D168",
+      "score": 0
+    },
+    {
+      "id": "SE7",
+      "name": "Ahnaf",
+      "dp_link":
+        "https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-1/428611578_748261800745955_4826273415501539577_n.jpg?stp=dst-jpg_p100x100&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=fEp3zTkiLEMAX-LeIFn&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fdac14-1.fna&oh=00_AfD-rFsJ1qd-ym7JaTn1MwKbVjYMK9XDztZdTjjaCWXs1Q&oe=6601028C",
+      "score": 0
+    },
+    {
+      "id": "SE8",
+      "name": "Mahin",
+      "dp_link":
+        "https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-1/326752201_1342330319888385_3413399968003371850_n.jpg?stp=dst-jpg_p100x100&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Qt6FI1ic67EAX-uahqs&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.fdac14-1.fna&oh=00_AfDruEgsIkY-ki5AEbP7vA0Os8Fq6vxLQiI40GwCsHOb4A&oe=65FFAEB5",
+      "score": 0
+    }
+]
