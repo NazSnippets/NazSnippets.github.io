@@ -1,10 +1,16 @@
-@import url("https://fonts.cdnfonts.com/css/draft-b");
+@font-face {
+  font-family: "Draft B";
+  src: local("Draft B"),
+    url("https://cdn.glitch.com/ca14c34e-946f-4b20-9201-046247f86b13%2FDraft_B_Regular.otf?v=1627371890360")
+      format("woff");
+}
 * {
-  font-family: "Draft B ", sans-serif;
+  font-family: Draft B;
+  font-weight: 700;
 }
 body {
   --dot-bg: black;
-  --dot-color: rgb(255, 255, 255);
+  --dot-color: linear-gradient(#7f00ff, #e100ff);
   --dot-size: 2px;
   --dot-space: 33px;
   background: linear-gradient(
@@ -22,14 +28,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 #main {
   height: 100%;
   width: 95%;
   margin-top: 25px;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   --dot-bg: #262626;
-  --dot-color: rgb(119, 108, 108);
+  --dot-color: linear-gradient(#2d388a, #00aeef);
   --dot-size: 1px;
   --dot-space: 22px;
   background: linear-gradient(
@@ -50,7 +60,11 @@ body {
   margin: 6px;
   height: 107px;
   width: 290px;
-  background-color: #0d9cdf;
+  background-image: radial-gradient(
+    circle at 18.7% 37.8%,
+    rgb(250, 250, 250) 0%,
+    rgb(225, 234, 238) 90%
+  );
   border-radius: 20px;
 }
 
@@ -60,12 +74,10 @@ body {
 }
 
 .studentScore {
-  font-size: 55px;
+  font-size: 45px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Draft B 425", sans-serif;
-  margin-bottom: 10000px;
 }
 
 .rank {
@@ -75,6 +87,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 .box {
   width: 375px;
@@ -87,15 +100,14 @@ body {
 #card_0 {
   margin: 65px;
   scale: 1.3;
-  background-color: #eab308;
+  background-image: linear-gradient(#f9ed32, #fbb040);
   margin: 50px;
 }
 #ranking {
   display: flex;
   align-items: center;
   width: 900px;
-  min-height: 200px;
-  max-height: 600px;
+  min-height: 450px;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
@@ -106,4 +118,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+#leaderRank {
+  color: rgb(255, 174, 0);
+  font-size: 5vh;
+  padding: 1vh;
 }
