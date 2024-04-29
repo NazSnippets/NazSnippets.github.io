@@ -34,7 +34,7 @@ function updateData(data) {
 
 
 function update(){
-  $.getJSON(`http://localhost:3000/api`,(data)=>{
+  $.getJSON('https://c20356d0-058e-4686-b3c7-8bb6a84b5c2e-00-1xmiixkedfevd.sisko.replit.dev/api',(data)=>{
 
       data.sort(function(a,b){return b.clicks - a.clicks});
 
