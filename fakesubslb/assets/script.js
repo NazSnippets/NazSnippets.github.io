@@ -27,8 +27,9 @@ for (var l = 1; l <= 3; l++) {
 function updateData(data) {
   for (var l = 1; l <= 30; l++) {
   
-  document.getElementById(`name_${l}`).innerText = data[l-1].name;
-  document.getElementById(`count_${l}`).innerText = data[l-1].clicks;
+  document.getElementById(`name_${l}`).innerText = data[l-1].name || "error";
+  document.getElementById(`count_${l}`).innerText = data[l-1].clicks || "80085";
+  document.getElementById(`img_${l}`).src = data[l-1].img || "" ;
 }
 }
 function update(){
