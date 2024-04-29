@@ -43,4 +43,4 @@ function update(){
 update()
 setInterval(() => {
   update()
-}, 6000);
+}, 2500);
