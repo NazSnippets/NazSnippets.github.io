@@ -33,7 +33,7 @@ function updateData(data) {
 }
 }
 function update(){
-  $.getJSON('https://c20356d0-058e-4686-b3c7-8bb6a84b5c2e-00-1xmiixkedfevd.sisko.replit.dev/api',(data)=>{
+  $.getJSON('https://864f6096-6d82-402a-8bc2-fb91f19ecf42-00-32w787p1fps9i.picard.replit.dev/api',(data)=>{
 
       data.sort(function(a,b){return b.clicks - a.clicks});
         updateData(data)
