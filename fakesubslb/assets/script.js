@@ -24,23 +24,29 @@ for (var l = 1; l <= 3; l++) {
     }
 }
 
-function updateData(data) {
+function populate(data) {
   for (var l = 1; l <= 30; l++) {
   
   document.getElementById(`name_${l}`).innerText = data[l-1].name || "error";
-  document.getElementById(`count_${l}`).innerText = data[l-1].clicks || "80085";
   document.getElementById(`img_${l}`).src = data[l-1].img || "" ;
-}
+  if(data[l-1].clicks > 999999999) {
+    document.getElementById(`count_${l}`).innerText = "999999999";
+  }  else {
+    document.getElementById(`count_${l}`).innerText = data[l-1].clicks || "80085";
+  }
+  }
 }
 function update(){
-  $.getJSON('https://864f6096-6d82-402a-8bc2-fb91f19ecf42-00-32w787p1fps9i.picard.replit.dev/api',(data)=>{
+  $.getJSON('https://c20356d0-058e-4686-b3c7-8bb6a84b5c2e-00-1xmiixkedfevd.sisko.replit.dev/api',(data)=>{
 
       data.sort(function(a,b){return b.clicks - a.clicks});
-        updateData(data)
+      populate(data)
   });
 }
 
+
 update()
 setInterval(() => {
-  update()
+  
+update()
 }, 2500);
